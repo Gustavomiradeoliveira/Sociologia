@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>Jornal Costa</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu" class="container__rotulo">
+                    <span class="cabeçalho__menu-hamburguer container__imagem" id="img__menu"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Categorias</li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Programação</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Front-End</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Infraestrutura</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Business</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Design & UX</a>
+                    </li>
+                </ul>
+                
+                <img src="img/Logo.jpeg" alt="Logo da AluraBooks" class="container__imagem" id="img__logo">
+                <h1 class="container__titulo--logo"><b class="container__titulo--logo--negrito">Costa</b>Jornais</h1>
+            </div>
+
+            <ul class="opcoes">
+                <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+                <label for="opcoes-menu" class="opcoes__rotulo">
+                    <li class="opcoes__item opcoes__item-categoria">Jornais</li>
+                </label>
+
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Revistas</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">notícias</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">reportagems</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link"></a>
+                    </li>
+                </ul>
+
+                <li class="opcoes__item opcoes__item-favoritos"><a href="#" class="opcoes__link"> Jornais Favoritos</a></li>
+                <li class="opcoes__item"><a href="#" class="opcoes__link"> </a></li>
+            </ul>
+
+            <div class="container">
+                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente" id="img__favoritos"></a>
+                <a href="#" class="container__link">
+                    <img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem" id="img__compras">
+                    <p class="container__texto-desktop">Minha sacola</p>
+                </a>
+                <a href="#" class="container__link">
+                    <img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem" id="img__profile">
+                    <p class="container__texto-desktop">Meu perfil</p>
+                </a>
+            </div>
+        </header>
+
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+            <p class="banner__texto"></p>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será a próxima informação?">
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Últimas informações!: Coca-Cola</h2>
+            
+            <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/noel supreme 1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/noel tomando coca 1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/capitalism.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/ursodacoca.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/womencola.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/alodiabo.jpg" alt=""></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+
+  <section class="corpo">
+    <h1></h1>
+    
+    <div class="conteudo">
+      
+      </div>
+      <div class="texto">A Coca-Cola utiliza estratégias de marketing emocionais, associando sua marca a momentos felizes e contando histórias envolventes em suas propagandas. Também recorre a celebridades e influenciadores para promover seus produtos, destacando a experiência de compartilhamento e diversão. Investe na construção de uma identidade de marca sólida e facilmente reconhecível. No entanto, os consumidores devem fazer escolhas informadas, equilibrando o desejo criado pela publicidade com uma alimentação consciente e equilibrada. A marca é bem-sucedida no marketing, mas a decisão de consumo deve ser feita de maneira consciente.
+      </div>
+      <div class="conteudo">
+      
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Seguindo com outra marca:</h2>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Apple</h2>
+
+       <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/apple.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/applehead.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/vr.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/charger.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/placa.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/tecnologia.jpg" alt=""></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+
+  <section class="corpo">
+    <h1></h1>
+    
+    <div class="conteudo">
+      
+      </div>
+      <div class="texto">A Apple atrai clientes através de design atraente, excelente experiência do usuário, marketing eficaz e inovação tecnológica. Seu ecossistema integrado e suporte ao cliente também contribuem para a fidelidade à marca.
+      </div>
+      <section class="carrossel">
+            <h2 class="carrossel__titulo">como o marketing e a cultura de consumo tem influencia na sociedade contemporanea?</h2>
+
+       <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/cinema.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/clone.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/controle.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/hollywood.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/mente.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/tv.jpg" alt=""></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+
+  <section class="corpo">
+    <h1></h1>
+    
+    <div class="conteudo">
+      
+      </div>
+      <div class="texto">O marketing e a cultura de consumo influenciam profundamente a sociedade contemporânea, moldando nossos valores, preferências e comportamentos. Eles criam desejos, promovem aquisições e definem padrões de status, afetando nossa identidade e interações sociais. Ao mesmo tempo, podem aumentar o consumo excessivo, apegando-se ao materialismo. Essa influência impacta desde as escolhas de produtos até as questões ambientais, exigindo uma análise crítica para um consumo mais consciente e responsável.
+      </div>
+      <section class="carrossel">
+        
+    </div>
+  </section>
+    </div>
+    </div>
+</section>
+</section>
+
+        <section class="topicos">
+            <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+            <ul class="topicos__lista">
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Capitalismo</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Cosumismo</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Anúncios</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Jornais Online</a>
+                
+        </section>
+
+        <section class="contato">
+            <div class="contato__descricao">
+                <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+                <p class="contato__texto"></p>
+            </div>
+            <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+        </section>
+
+        <hr/>
+
+        
+
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
+    </body>
+
+</html>
